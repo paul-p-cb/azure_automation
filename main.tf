@@ -1,3 +1,10 @@
+provider "azurerm" {
+version    = ">=2.25.0"
+skip_provider_registration = "true"
+features {}
+
+}
+
 resource "azurerm_automation_module" "azaccount" {
   name                    = "AzAccounts"
   resource_group_name     = data.azurerm_resource_group.autorg.name

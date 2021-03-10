@@ -1,0 +1,7 @@
+*tfstate*
+*.auto.tfvars
+.DS_Store
+build
+.terraform
+*tfplan*
+*.log
